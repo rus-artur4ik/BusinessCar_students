@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Business Car Students</string>
+
+    <string name="promo_companies">Компании</string>
+    <string name="promo_opportunities">Возможности</string>
+    <string name="promo_platforms">Площадки</string>
+    <string name="promo_sign_in">Войти</string>
+    <string name="promo_meet_the_leaders">Познакомься с лидерами Автомобильного Ритейла</string>
+    <string name="promo_block_title">Пройди производственную практику у официальных дилеров, входящих в Ассоциацию РОАД.</string>
+    <string name="promo_block_subtitle">Начни строить карьеру в автобизнесе уже сегодня!</string>
+</resources>
