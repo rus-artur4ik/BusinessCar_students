@@ -1,7 +1,7 @@
 package com.businesscar.studentapp.presentation.registration
 
-import androidx.lifecycle.ViewModel
+import com.businesscar.studentapp.presentation.CoreViewModel
 
-class RegistrationViewModel : ViewModel() {
-    // TODO: Implement the ViewModel
+class RegistrationViewModel : CoreViewModel<Any>() {
+
 }

@@ -8,4 +8,47 @@
     <string name="promo_meet_the_leaders">Познакомься с лидерами Автомобильного Ритейла</string>
     <string name="promo_block_title">Пройди производственную практику у официальных дилеров, входящих в Ассоциацию РОАД.</string>
     <string name="promo_block_subtitle">Начни строить карьеру в автобизнесе уже сегодня!</string>
+
+    <string name="auth_title">Авторизация</string>
+    <string name="auth_email">Email</string>
+    <string name="auth_email_hint">you@example.com</string>
+    <string name="auth_password">Пароль</string>
+    <string name="auth_password_hint">********</string>
+    <string name="auth_sign_in">Войти</string>
+    <string name="auth_register">Регистрация</string>
+
+    <string name="reg_title">Форма регистрации</string>
+    <string name="reg_subtitle">Просим Вас ответить на вопросы анкеты. Полученные данные будут использованы в Единой базе прохождения практики</string>
+    <string name="reg_select_staging_profile">Выберите направление для прохождения стажировки</string>
+    <string name="reg_personal_data_alignment">Я даю согласие на обработку персональных данных и соглашаюсь с Политикой в отношении обработки персональных данных</string>
+    <string name="reg_full_name_hint">ФИО</string>
+    <string name="reg_email_hint">Электронная почта</string>
+    <string name="reg_phone_hint">+7 (999) 999–99–99</string>
+    <string name="reg_university_name_hint">Наименование ВУЗа/Колледжа</string>
+    <string name="reg_speciality_of_study_hint">Специальность обучения</string>
+    <string name="reg_course_hint">Курс</string>
+    <string name="reg_next_stage">Продолжить</string>
+
+    <string name="reg_send">Отправить</string>
+
+    <string name="cabinet_title">Личный кабинет</string>
+    <string name="cabinet_profile">Анкета</string>
+    <string name="cabinet_vacancies">Вакансии</string>
+    <string name="cabinet_tests">Тестирования</string>
+    <string name="cabinet_practice">Практика</string>
+
+    <string name="vacancies_title">Вакансии</string>
+    <string name="vacancies_list_tab">Списком</string>
+    <string name="vacancies_map_tab">На карте</string>
+    <string name="vacancies_city">Город</string>
+    <string name="vacancies_company_name">Компания</string>
+    <string name="vacancies_employee_position">Должность</string>
+    <string name="vacancies_brand">Бренд</string>
+    <string name="vacancies_more_info">Подробнее</string>
+
+    <string name="vacancy_info_send_request">Отправить запрос</string>
+    <string name="vacancy_info_show_map">Показать местоположение</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>

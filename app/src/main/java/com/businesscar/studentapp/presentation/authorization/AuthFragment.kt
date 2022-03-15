@@ -1,27 +1,26 @@
 package com.businesscar.studentapp.presentation.authorization
 
-import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
-import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
 import com.businesscar.studentapp.R
+import com.businesscar.studentapp.databinding.AuthFragmentBinding
+import com.businesscar.studentapp.presentation.CoreFragment
 
-class AuthFragment : Fragment() {
-
-    private lateinit var viewModel: AuthViewModel
-
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        return inflater.inflate(R.layout.auth_fragment, container, false)
-    }
+class AuthFragment : CoreFragment<AuthFragmentBinding, Any>(
+    viewBindingInflate = AuthFragmentBinding::inflate,
+    AuthViewModel::class.java,
+) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        viewModel = ViewModelProvider(this).get(AuthViewModel::class.java)
+        viewBinding.registerButton.setOnClickListener {
+            findNavController().navigate(R.id.action_authFragment_to_registrationFragment)
+        }
+        viewBinding.signInButton.setOnClickListener {
+            findNavController().navigate(R.id.action_authFragment_to_cabinetFragment)
+        }
     }
 
+    override suspend fun render(state: Any) {}
 }

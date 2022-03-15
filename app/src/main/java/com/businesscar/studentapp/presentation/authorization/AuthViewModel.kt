@@ -1,6 +1,7 @@
 package com.businesscar.studentapp.presentation.authorization
 
-import androidx.lifecycle.ViewModel
+import com.businesscar.studentapp.presentation.CoreViewModel
 
-class AuthViewModel : ViewModel() {
+class AuthViewModel : CoreViewModel<Any>() {
+
 }

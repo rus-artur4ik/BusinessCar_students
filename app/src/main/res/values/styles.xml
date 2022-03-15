@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="RadioButtonWithTextColorHighlight" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:button">@null</item>
+        <item name="android:textColor">@color/radio_button_text_color</item>
+        <item name="android:shadowColor">#4000</item>
+        <item name="android:shadowDy">4</item>
+
+    </style>
+</resources>

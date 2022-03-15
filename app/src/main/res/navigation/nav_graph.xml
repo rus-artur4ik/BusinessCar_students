@@ -13,20 +13,61 @@
         tools:layout="@layout/promo_fragment" >
         <action
             android:id="@+id/action_promoFragment_to_authFragment"
-            app:destination="@id/authFragment" />
+            app:destination="@id/authFragment"
+            app:enterAnim="@anim/enter_from_right"
+            app:exitAnim="@anim/exit_to_left"
+            app:popEnterAnim="@anim/enter_from_left"
+            app:popExitAnim="@anim/exit_to_right" />
     </fragment>
     <fragment
         android:id="@+id/authFragment"
         android:name="com.businesscar.studentapp.presentation.authorization.AuthFragment"
         android:label="auth_fragment"
-        tools:layout="@layout/auth_fragment" >
+        tools:layout="@layout/auth_fragment">
         <action
             android:id="@+id/action_authFragment_to_registrationFragment"
-            app:destination="@id/registrationFragment" />
+            app:destination="@id/registrationFragment"
+            app:enterAnim="@anim/enter_from_right"
+            app:exitAnim="@anim/exit_to_left"
+            app:popEnterAnim="@anim/enter_from_left"
+            app:popExitAnim="@anim/exit_to_right" />
+        <action
+            android:id="@+id/action_authFragment_to_cabinetFragment"
+            app:destination="@id/cabinetFragment"
+            app:enterAnim="@anim/enter_from_right"
+            app:exitAnim="@anim/exit_to_left"
+            app:popEnterAnim="@anim/enter_from_left"
+            app:popExitAnim="@anim/exit_to_right" />
     </fragment>
     <fragment
         android:id="@+id/registrationFragment"
         android:name="com.businesscar.studentapp.presentation.registration.RegistrationFragment"
         android:label="registration_fragment"
-        tools:layout="@layout/registration_fragment" />
+        tools:layout="@layout/registration_fragment">
+        <action
+            android:id="@+id/action_registrationFragment_to_cabinetFragment"
+            app:destination="@id/cabinetFragment"
+            app:enterAnim="@anim/enter_from_right"
+            app:exitAnim="@anim/exit_to_left"
+            app:popEnterAnim="@anim/enter_from_left"
+            app:popExitAnim="@anim/exit_to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/cabinetFragment"
+        android:name="com.businesscar.studentapp.presentation.cabinet.CabinetFragment"
+        android:label="fragment_cabinet"
+        tools:layout="@layout/fragment_cabinet">
+        <action
+            android:id="@+id/action_cabinetFragment_to_vacanciesFragment"
+            app:destination="@id/vacanciesFragment"
+            app:enterAnim="@anim/enter_from_right"
+            app:exitAnim="@anim/exit_to_left"
+            app:popEnterAnim="@anim/enter_from_left"
+            app:popExitAnim="@anim/exit_to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/vacanciesFragment"
+        android:name="com.businesscar.studentapp.presentation.vacancies.VacanciesFragment"
+        android:label="vacancies_fragment"
+        tools:layout="@layout/vacancies_fragment" />
 </navigation>

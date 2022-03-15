@@ -72,4 +72,5 @@ dependencies {
     // Misc
     implementation("androidx.viewpager2:viewpager2:1.0.0")
     implementation("com.github.kirich1409:viewbindingpropertydelegate-noreflection:1.5.3")
+    implementation("com.hannesdorfmann:adapterdelegates4-kotlin-dsl-viewbinding:4.3.1")
 }
