@@ -54,7 +54,6 @@
         android:textStyle="bold"
         tools:text="Адрес места практики" />
 
-
     <com.businesscar.studentapp.presentation.SausageButton
         android:id="@+id/moreInfoButton"
         android:layout_width="wrap_content"

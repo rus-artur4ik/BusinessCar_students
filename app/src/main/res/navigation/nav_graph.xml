@@ -69,5 +69,18 @@
         android:id="@+id/vacanciesFragment"
         android:name="com.businesscar.studentapp.presentation.vacancies.VacanciesFragment"
         android:label="vacancies_fragment"
-        tools:layout="@layout/vacancies_fragment" />
+        tools:layout="@layout/vacancies_fragment">
+        <action
+            android:id="@+id/action_vacanciesFragment_to_vacancyInfoFragment"
+            app:destination="@id/vacancyInfoFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/vacancyInfoFragment"
+        android:name="com.businesscar.studentapp.presentation.vacancy_info.VacancyInfoFragment"
+        android:label="vacancy_info_fragment"
+        tools:layout="@layout/vacancy_info_fragment">
+        <argument
+            android:name="vacancyEntity"
+            app:argType="com.businesscar.studentapp.domain.entity.VacancyEntity" />
+    </dialog>
 </navigation>

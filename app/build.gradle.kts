@@ -2,6 +2,8 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     kotlin("plugin.serialization")
+    id("androidx.navigation.safeargs.kotlin")
+    id("kotlin-parcelize")
 }
 
 android {
@@ -41,8 +43,8 @@ android {
 
 dependencies {
     implementation("androidx.legacy:legacy-support-v4:1.0.0")
-    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.3.1")
-    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1")
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.4.1")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1")
     val nav_version = "2.4.1"
     val dagger_version = "2.35.1"
 
@@ -61,13 +63,17 @@ dependencies {
 
     // Dagger
     implementation("com.google.dagger:dagger-android:$dagger_version")
-    implementation ("com.google.dagger:dagger-android-support:$dagger_version") // if you use the support libraries
+    implementation("com.google.dagger:dagger-android-support:$dagger_version") // if you use the support libraries
     annotationProcessor("com.google.dagger:dagger-android-processor:$dagger_version")
 
     // Network
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.2")
     implementation("com.jakewharton.retrofit:retrofit2-kotlinx-serialization-converter:0.8.0")
+
+    // Images
+    implementation("com.github.bumptech.glide:glide:4.13.0")
+    annotationProcessor("com.github.bumptech.glide:compiler:4.13.0")
 
     // Misc
     implementation("androidx.viewpager2:viewpager2:1.0.0")
