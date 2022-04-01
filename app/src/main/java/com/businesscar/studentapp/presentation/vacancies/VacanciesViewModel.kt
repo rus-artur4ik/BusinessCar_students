@@ -11,67 +11,67 @@ class VacanciesViewModel : CoreViewModel<VacanciesFragmentState>() {
             VacanciesFragmentState(
                 listOf(
                     VacancyEntity(
-                        "Toyota inc.",
-                        "Разработчик node.js",
-                        "Google Drive",
-                        "Маунтин-Вью, Калифорния, США",
-                        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/240px-Google_%22G%22_Logo.svg.png"
+                        "Toyota Tsusho Сorporation",
+                        "Автомеханик",
+                        "Группа Компаний БИЗНЕС КАР",
+                        "Октябрьское поле, Москва, проспект Маршала Жукова, 49к1",
+                        "https://b4051664-be9e-4979-89c4-770444c116cd.selcdn.net/media/cache/new_toyotabc/company_logo_social/tradeins.space/uploads/company/4226/logo-30_mono.png"
                     ),
+
                     VacancyEntity(
-                        "Lexus",
-                        "Разработчик Android",
-                        "Яндекс.Дзен",
-                        "Москва, Садовническая набережная 82",
-                        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Yandex_official_logo.svg/1280px-Yandex_official_logo.svg.png"
+                        "Inchcape",
+                        "Менеджер по привлечению клиентов",
+                        "Inchcape Russia",
+                        "Москва, МКАД, 44-й километр, внешняя сторона",
+                        "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/10/24/da/1024daf8-3368-5479-076c-d6b634f058f7/source/512x512bb.jpg"
                     ),
+
                     VacancyEntity(
-                        "Сбербанк",
-                        "Разработчик Android",
-                        "Сбер друг",
-                        "Москва, Кутузовский проспект 32",
-                        "https://icdn.lenta.ru/images/2020/09/21/21/20200921212138973/detail_30efcf43395af59daf77810c8267a28b.png"
+                        "Toyota Tsusho Сorporation",
+                        "Продавец консультант новых автомобилей",
+                        "Группа Компаний БИЗНЕС КАР",
+                        "Октябрьское поле, Москва, проспект Маршала Жукова, 49к1",
+                        "https://b4051664-be9e-4979-89c4-770444c116cd.selcdn.net/media/cache/new_toyotabc/company_logo_social/tradeins.space/uploads/company/4226/logo-30_mono.png"
                     ),
+
                     VacancyEntity(
-                        "Райффайзен банк",
-                        "Разработчик Android",
-                        "Райффайзен капитал",
-                        "Москва, Смоленская-Сенная 28",
-                        "https://toplogos.ru/images/logo-raiffeisen-bank.jpg"
+                        "Inchcape",
+                        "Менеджер по выкупу автомобилей с пробегом",
+                        "Inchcape Russia",
+                        "МКАД29/МКАД44/Шелепиха",
+                        "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/10/24/da/1024daf8-3368-5479-076c-d6b634f058f7/source/512x512bb.jpg"
                     ),
+
+
                     VacancyEntity(
-                        "Рекламная компания РОССТ",
-                        "Разработчик Android",
-                        "Mayber",
-                        "Москва, Нижняя Красносельская 40/12к20",
-                        "https://assets-global.website-files.com/5e3177cecf36f6591e4e38cb/5ea2a86505e63bdd814cf868_Logo.png"
+                        "Inchcape",
+                        "Менеджер по работе с клиентами (удаленная работа)",
+                        "Inchcape Russia",
+                        "Москва, МКАД, 44-й километр, внешняя сторона",
+                        "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/10/24/da/1024daf8-3368-5479-076c-d6b634f058f7/source/512x512bb.jpg"
                     ),
+
                     VacancyEntity(
-                        "Meta inc.",
-                        "Senior data-scientist",
-                        "Facebook",
-                        "Менло-Парк, Калифорния, США",
-                        "https://assets-global.website-files.com/5e3177cecf36f6591e4e38cb/5ea2a86505e63bdd814cf868_Logo.png"
+                        "Renault",
+                        "Автомеханик / Автослесарь",
+                        "RTDService",
+                        "Чехов, Симферопольское шоссе, 1Б", "https://hhcdn.ru/employer-logo/1597175.jpeg"
                     ),
+
                     VacancyEntity(
-                        "Amazon",
-                        "Rocket-science researcher",
-                        "Blue origin",
-                        "Сиэтл, Вашингтон, США",
-                        "https://assets-global.website-files.com/5e3177cecf36f6591e4e38cb/5ea2a86505e63bdd814cf868_Logo.png"
+                        "Renault",
+                        "Уборщик служебных помещений",
+                        "RTDService",
+                        "Тамбов, улица Киквидзе, 116",
+                        "https://hhcdn.ru/employer-logo/1597175.jpeg"
                     ),
+
                     VacancyEntity(
-                        "Netflix",
-                        "Java developer",
-                        "Netflix on smart TV",
-                        "Лос Гатос, Калифорния, США",
-                        "https://assets-global.website-files.com/5e3177cecf36f6591e4e38cb/5ea2a86505e63bdd814cf868_Logo.png"
-                    ),
-                    VacancyEntity(
-                        "Apple inc.",
-                        "IOS Разработчик",
-                        "Safari app",
-                        "Купертино, Калифорния, США",
-                        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Apple_Logo.svg/1719px-Apple_Logo.svg.png"
+                        "Toyota Tsusho Сorporation",
+                        "Web-разработчик",
+                        "Группа Компаний БИЗНЕС КАР",
+                        "Октябрьское поле, Москва, проспект Маршала Жукова, 49к1",
+                        "https://b4051664-be9e-4979-89c4-770444c116cd.selcdn.net/media/cache/new_toyotabc/company_logo_social/tradeins.space/uploads/company/4226/logo-30_mono.png"
                     ),
                 )
             )
