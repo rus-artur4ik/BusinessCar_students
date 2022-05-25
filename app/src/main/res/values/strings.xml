@@ -6,19 +6,19 @@
     <string name="promo_platforms">Площадки</string>
     <string name="promo_sign_in">Войти</string>
 
-    <string name="promo_comp_und"><u>Компании</u></string>
-    <string name="promo_opp_und"><u>Возможности</u></string>
-    <string name="promo_plat_und"><u>Площадки</u></string>
+    <string name="promo_companies_underlined"><u>Компании</u></string>
+    <string name="promo_opportunities_underlined"><u>Возможности</u></string>
+    <string name="promo_platforms_underlined"><u>Площадки</u></string>
 
     <string name="promo_meet_the_leaders">Познакомься с лидерами Автомобильного Ритейла</string>
     <string name="promo_block_title">Пройди производственную практику у официальных дилеров, входящих в Ассоциацию РОАД.</string>
     <string name="promo_block_subtitle">Начни строить карьеру в автобизнесе уже сегодня!</string>
 
-    <string name="promo_opp_title">Ты сможешь</string>
+    <string name="promo_opportunities_title">Ты сможешь</string>
 
-    <string name="promo_plat_title">Площадки практики</string>
-    <string name="promo_mos">Москва и МО</string>
-    <string name="promo_spb">Санкт-Петербург</string>
+    <string name="promo_platforms_title">Площадки практики</string>
+    <string name="promo_moscow">Москва и МО</string>
+    <string name="promo_saint_petersburg">Санкт-Петербург</string>
 
     <string name="auth_title">Авторизация</string>
     <string name="auth_email">Email</string>
