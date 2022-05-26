@@ -7,7 +7,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath ("com.android.tools.build:gradle:4.2.2")
+        classpath ("com.android.tools.build:gradle:7.2.0")
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion")
         classpath("androidx.navigation:navigation-safe-args-gradle-plugin:$navVersion")
 
@@ -17,8 +17,8 @@ buildscript {
 }
 
 plugins {
-    id("com.android.application") version "7.1.0-rc01" apply false
-    id("com.android.library") version "7.1.0-rc01" apply false
+    id("com.android.application") version "7.2.0" apply false
+    id("com.android.library") version "7.2.0" apply false
     id("org.jetbrains.kotlin.android") version "1.6.10" apply false
     kotlin("jvm") version "1.6.10"
     kotlin("plugin.serialization") version "1.6.10"
